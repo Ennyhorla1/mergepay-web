@@ -62,6 +62,7 @@ export function Dialog({
         onClose();
         return;
       }
+    }, 50);
 
       if (e.key === "Tab" && dialogRef.current) {
         const focusable = dialogRef.current.querySelectorAll<HTMLElement>(
